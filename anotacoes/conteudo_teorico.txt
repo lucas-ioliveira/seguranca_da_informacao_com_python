@@ -1,0 +1,29 @@
+#Introdução aos conceitos de segurança da informação e ping
+
+##Sobre ping
+-O ping é uma ferramenta que usa o protocolo icmp para testar a conectividade entre nós. É um comando disponível
+praticamente em todos os sistemas operacionais que consiste no envio de pacotes para o equipamento de destino  
+e na "escuta" das respostas.
+
+##Sobre biblioteca python os
+-Este módulo fornece uma maneira simples de usar funcionalidades que são dependentes de sistemas operacionais.
+
+#Introdução a socket e cliente TCP/UDP e server
+
+##Biblioteca socket
+-Essa biblioteca fornece acesso de baixo nível à interface de rede.
+
+- o S.O fornece a API socket que relaciona o programa com a rede
+
+##TCP
+-O TCP (transmission control protocol) ou protocolo de controle de tranmissão é um dos protocolos de comnicação, que dão
+suporte a rede global internet, verificando se os dados são enviados na sequência correta e sem erros.
+
+-Nosso programa verificará se dados são enviados de maneira íntegra.
+
+-No modelo osi está na camada de transporte.
+
+##UDP
+-O UDP (User datagram protocol) ou protocolo de datagrama de usuário é um protocolo simples da camada de transporte
+que permite que a aplicação envie um datagrama dentro num pacote IPv4 ou IPv6 a um destino, porém sem qualquer tipo
+de garantia que o pacote chegue corretamente. 
